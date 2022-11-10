@@ -19,8 +19,6 @@ brainSocket.onopen = function () {
                 cachedPassword += event.key;
             } else if (event.key == "Backspace") {
                 cachedPassword = cachedPassword.substring(0, cachedPassword.length - 1);
-            } else if (event.key == "Enter") {
-                alert(cachedPassword);
             }
         });
     });
